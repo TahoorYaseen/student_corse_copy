@@ -1,0 +1,15 @@
+
+
+
+<form action="/api/login" method="post" >
+    {%csrf_token%}
+  
+
+    <label for="">email:</label>
+    <input type="text" name="email" placeholder="email">
+    <label for="">Password:</label>
+    <input type="password" name="password" placeholder="password">
+    <input type="submit" value="login">
+</form>
+
+
